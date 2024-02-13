@@ -16,7 +16,9 @@ public class printXn {
         if(n ==0){
             return 1;
         }
-        int halfPowSq = pow(x, n/2) * pow(x, n/2);
+        int halfPow =  pow(x, n/2);
+        int halfPowSq =  halfPow *halfPow ;
+        
 
         // when n is odd
         if(n % 2 != 0){
