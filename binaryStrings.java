@@ -18,13 +18,13 @@ public class binaryStrings {
         }*/
 
         //in short
-        binary(n-1, 0, str.append("0"));
+        binary(n-1, 0, str+"0");
         if(lastPlace == 0){
-            binary(n-1, 1, str.append("1"));
+            binary(n-1, 1, str+"1");
         }
     }
     public static void main(String[] args){
-        binary(3, 0, new StringBuilder(""));
+        binary(3, 0, "");
        
 
     }
